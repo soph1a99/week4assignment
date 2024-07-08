@@ -1,0 +1,57 @@
+
+    *{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    div.container{
+      border: 5px solid #842929;
+      width: 80%;
+      margin: 0 auto 0 auto;
+    }
+    header{
+      background-color: bisque;
+    }
+    .hero img{ 
+      width: 100%
+    }
+    div.left, div.middle, div.right{
+      border: 3px solid #b23e3e;
+      width: 30%;
+  
+    }
+  
+    aside img{
+      width: 100%;
+    }
+    aside{
+      display: flex;
+      justify-content: space-around;
+    }
+
+    nav{
+      background-color: darksalmon;
+    }
+
+    ul{
+      text-align: center;
+
+    }
+
+    li{
+      display: inline-block;
+      width: 125px;
+      border: 2px solid white;
+      line-height: 3em;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-variant: small-caps;
+
+    }
+    a{
+      color:#842929; 
+      text-decoration: none;
+      border: 1px solid lightsalmon;
+      display: block;
+
+    }
+ 
